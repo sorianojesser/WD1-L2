@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <header>
+    <h1>Create an Account</h1>
+  </header>
+
+  <main>
+    <form id="signupForm">
+      <label for="signupName">Full Name:</label>
+      <input type="text" id="signupName" required>
+    </form>
+    <form>
+      <label for="signupEmail">Email:</label>
+      <input type="email" id="signupEmail" required>
+    </form>
+      <label for="signupPassword">Password:</label>
+      <input type="password" id="signupPassword" minlength="6" required>
+    <form>
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+    <div id="signupMsg"></div>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Back to Home</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
