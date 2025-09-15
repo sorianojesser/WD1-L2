@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+
+
+main {
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(12, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+input, button {
+  padding: 0.6rem;
+  border: 1px solid #581717;
+  border-radius: 6px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+#loginMsg, #signupMsg {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
